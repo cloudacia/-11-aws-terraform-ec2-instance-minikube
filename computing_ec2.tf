@@ -14,6 +14,6 @@ resource "aws_instance" "web01" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "first-name_last-name"
+    Name = "Minikube"
   }
 }
